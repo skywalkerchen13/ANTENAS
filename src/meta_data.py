@@ -18,10 +18,10 @@ import xml.etree.ElementTree as ET
 
 # @todo: Some databases have authors in capital letters only - adapt for that!
 
-filename = "UAM_stakeholders.csv"
+filename = "Aviation_Library_2016-20.csv"
 
 token_length = 2
-fields = ['title', 'abstract']
+fields = ['title']
 n_top_papers = 5
 n_keywords = 40
 n_years_keywords = 0

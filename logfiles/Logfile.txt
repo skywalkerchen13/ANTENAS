@@ -1,0 +1,112 @@
+C:/Users/lukas.preis/Documents/GitHub/BHL_TextMining\input\Aviation_Library_2016-20.csv
+
+Database has 5657 sets and 4 fields
+
+Field year is missing 0 sets
+Field authors is missing 0 sets
+Field title is missing 0 sets
+Field abstract is missing 4 sets
+
+Evaluating 5653 complete data sets
+
+
+Meta text data and word count:
+
+Characters per title: 83 (shortest: 18, longest: 224)
+Words per title: 11 (shortest: 3, longest: 38)
+Characters per abstract: 1120 (shortest: 156, longest: 3479)
+Words per abstract: 167 (shortest: 22, longest: 568)
+Sentences per abstract: 7 (shortest: 0, longest: 41)
+
+
+Publications between years 2016 and 2020
+(most active: 2017, least active: 2020)
+!PXYX
+2016    1146
+2017    1452
+2018    1428
+2019     888
+2020     739
+P!
+
+Composition of database
+(5653 papers from 1 know sources, 0 papers from unknown sources, 0 papers without doi)
+ARC         5653
+Other          0
+Unknown DOI    0
+No DOI         0
+
+Publisher Prominence
+AIAA        5653
+Unknown Pub.   0
+
+
+Unsupervised keyword analysis
+(counting method is number of papers, token lenght is 2-gram)
+
+Top 40 keywords in titles:
+(42k tokens total, 27k unique tokens, excluding 205 stop words)
+
+boundari layer         261
+wind tunnel            139
+numer simul             93
+eddi simul              86
+trail edg               84
+flow control            80
+reynold number          78
+larg eddi               69
+high speed              68
+design optim            68
+layer interact          66
+flight test             64
+high order              64
+lead edg                62
+high lift               61
+air mobil               60
+urban air               59
+conceptu design         56
+nois reduct             54
+unman aerial            51
+jet nois                50
+aerial vehicl           49
+turbul model            47
+unman aircraft          47
+shape optim             47
+discontinu galerkin     45
+edg nois                45
+aircraft system         44
+swept wing              43
+hyperson boundari       42
+nois predict            42
+shock wave              41
+ice accret              40
+navier stoke            39
+wind turbin             37
+high fidel              37
+plasma actuat           37
+angl attack             36
+activ flow              36
+air traffic             36
+
+
+
+Top 10 authors by number of publications:
+(total unique authors: 9870, avg authors per paper: 3.5)
+
+Dimitri Mavris       85
+Ramesh Agarwal       51
+Timothy Takahashi    32
+Mahdi Azarpeyvand    32
+Miguel Visbal        29
+Graham Candler       27
+Hui Hu               25
+Iain Boyd            24
+Mirko Hornung        24
+Pier Ciampa          22
+
+Top author per year and corresponding publications:
+2016	Dimitri Mavris	16
+2017	Miguel Visbal	11
+2018	Dimitri Mavris	24
+2019	Dimitri Mavris	15
+2020	Dimitri Mavris	20

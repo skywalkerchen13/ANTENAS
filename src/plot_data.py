@@ -17,7 +17,7 @@ from wordcloud import WordCloud, STOPWORDS, ImageColorGenerator
 
 # my_title = 'UAM ARC'
 filename = "Logfile.txt"
-analysis_title = "NTRS"
+analysis_title = "Aviation"
 token_length = 2
 word_clouds = False
 full_name = True
