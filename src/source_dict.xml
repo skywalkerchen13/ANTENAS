@@ -1,0 +1,851 @@
+<?xml version="1.0"?>
+<sources>
+
+	<publisher name="AIAA">
+		<info name="American Institute of Aeronautics and Astronautics" url="https://www.aiaa.org/publications"/>
+		<dois>
+			<doi code="2514"/>
+		</dois>
+	</publisher>
+	<publisher name="IEEE">
+		<info name="Institute of Electrical and Electronics Engineers" url="https://ieeexplore.ieee.org/Xplore/home.jsp"/>
+		<dois>
+			<doi code="1109"/>
+			<doi code="23919"/>
+		</dois>
+	</publisher>
+	<publisher name="Elsevier">
+		<info name="Elsevier" url="https://www.sciencedirect.com/"/>
+		<dois>
+			<doi code="1016"/>
+		</dois>
+	</publisher>
+	<publisher name="MDPI">
+		<info name="Multidisciplinary Digital Publishing Institute" url="https://www.mdpi.com/"/>
+		<dois>
+			<doi code="3390"/>
+		</dois>
+	</publisher>
+	<publisher name="SAGEpub">
+		<info name="SAGE Publishing" url="https://journals.sagepub.com/"/>
+		<dois>
+			<doi code="1177"/>
+			<doi code="3141"/>
+			<doi code="1243"/>
+		</dois>
+	</publisher>
+	<publisher name="TandF">
+		<info name="Taylor and Francis Group" url="https://www.tandfonline.com/"/>
+		<dois>
+			<doi code="1080"/>
+		</dois>
+	</publisher>
+	<publisher name="Springer">
+		<info name="Springer Nature Switzerland AG" url="https://www.springer.com/de"/>
+		<dois>
+			<doi code="1007"/>
+			<doi code="1023"/>
+		</dois>
+	</publisher>
+	<publisher name="PubsOnLine">
+		<info name="Institute for Operations Research and the Management Sciences" url="https://pubsonline.informs.org/"/>
+		<dois>
+			<doi code="1287"/>
+		</dois>
+	</publisher>
+	<publisher name="IOP">
+		<info name="Institute of Physics" url="https://iopscience.iop.org/"/>
+		<dois>
+			<doi code="1088"/>
+		</dois>
+	</publisher>
+	<publisher name="CUP">
+		<info name="Cambridge University Press" url="https://www.cambridge.org/core/"/>
+		<dois>
+			<doi code="1017"/>
+		</dois>
+	</publisher>
+
+	
+    <source name="TRA">
+        <type>Journal</type>
+		<info name="Transportation Research Part A: Policy and Practice" url="https://www.sciencedirect.com/journal/transportation-research-part-a-policy-and-practice"/>
+		<dois>
+			<doi code="10.1016/j.tra"/>
+			<doi code="10.1016/0965-8564"/>
+			<doi code="10.1016/S0965-8564"/>
+		</dois>
+    </source>
+	<source name="TRB">
+        <type>Journal</type>
+		<info name="Transportation Research Part B: Methodological" url="https://www.sciencedirect.com/journal/transportation-research-part-b-methodological"/>
+		<dois>
+			<doi code="10.1016/j.trb"/>
+			<doi code="10.1016/0191-2615"/>
+			<doi code="10.1016/S0191-2615"/>
+		</dois>
+    </source>
+	<source name="TRC">
+        <type>Journal</type>
+		<info name="Transportation Research Part C: Emerging Technologies" url="https://www.sciencedirect.com/journal/transportation-research-part-c-emerging-technologies"/>
+		<dois>
+			<doi code="10.1016/j.trc"/>
+			<doi code="10.1016/0968-090X"/>
+			<doi code="10.1016/S0968-090X"/>
+		</dois>
+    </source>
+	<source name="TRD">
+        <type>Journal</type>
+		<info name="Transportation Research Part D: Transport and Environment" url="https://www.sciencedirect.com/journal/transportation-research-part-d-transport-and-environment"/>
+		<dois>
+			<doi code="10.1016/j.trd"/>
+			<doi code="10.1016/S1361-9209"/>
+		</dois>
+    </source>
+	<source name="TRE">
+        <type>Journal</type>
+		<info name="Transportation Research Part E: Logistics and Transportation Review" url="https://www.sciencedirect.com/journal/transportation-research-part-e-logistics-and-transportation-review"/>
+		<dois>
+			<doi code="10.1016/j.tre"/>
+			<doi code="10.1016/S1366-5545"/>
+		</dois>
+    </source>
+	<source name="TRF">
+        <type>Journal</type>
+		<info name="Transportation Research Part F: Traffic Psychology and Behaviour" url="https://www.sciencedirect.com/journal/transportation-research-part-f-traffic-psychology-and-behaviour"/>
+		<dois>
+			<doi code="10.1016/j.trf"/>
+			<doi code="10.1016/S1369-8478"/>
+		</dois>
+    </source>
+	<source name="ICNS">
+        <type>Conference</type>
+		<info name="Integrated Communications, Navigation and Surveillance Conference" url="https://ieeexplore.ieee.org/xpl/conhome/1001825/all-proceedings"/>
+		<dois>
+			<doi code="10.1109/ICNS"/>
+		</dois>
+    </source>
+	<source name="ARC">
+        <type>Conference</type>
+		<info name="Aerospace Research Central" url="https://arc.aiaa.org/action/showPublications?pubType=meetingProc"/>
+		<dois>
+			<doi code="10.2514/6."/>
+		</dois>
+    </source>
+	<source name="DASC">
+        <type>Conference</type>
+		<info name="Conference on Digital Avionics Systems" url="https://ieeexplore.ieee.org/xpl/conhome/1000202/all-proceedings"/>
+		<dois>
+			<doi code="10.1109/DASC"/>
+		</dois>
+    </source>
+	<source name="JATM">
+        <type>Journal</type>
+		<info name="Journal of Air Transport Management" url="https://www.sciencedirect.com/journal/journal-of-air-transport-management"/>
+		<dois>
+			<doi code="10.1016/j.jairtraman"/>
+			<doi code="10.1016/S0969-6997"/>
+			<doi code="10.1016/0969-6997"/>
+		</dois>
+    </source>
+	<source name="Aero">
+        <type>Journal</type>
+		<info name="MDPI Aerospace" url="https://www.mdpi.com/journal/aerospace"/>
+		<dois>
+			<doi code="10.3390/aerospace"/>
+			<doi code="10.3390/AEROSPACE"/>
+		</dois>
+    </source>
+	<source name="AEAT">
+        <type>Journal</type>
+		<info name="Aircraft Engineering and Aerospace Technology" url="https://www.emerald.com/insight/publication/issn/0002-2667"/>
+		<dois>
+			<doi code="10.1108/eb"/>
+			<doi code="10.1108/AEAT-"/>
+			<doi code="10.1108/aeat."/>
+		</dois>
+    </source>
+	<source name="IJST">
+        <type>Journal</type>
+		<info name="International Journal of Sustainable Transportation" url="https://www.tandfonline.com/toc/ujst20/current"/>
+		<dois>
+			<doi code="10.1080/1556831"/>
+		</dois>
+    </source>
+	<source name="TTRv">
+        <type>Journal</type>
+		<info name="Transport Reviews" url="https://www.tandfonline.com/toc/ttrv20/current"/>
+		<dois>
+			<doi code="10.1080/0144164"/>
+			<doi code="10.1080/71"/>
+		</dois>
+    </source>
+	<source name="FENNIA">
+        <type>Journal</type>
+		<info name="FENNIA International Journal of Geography" url="https://fennia.journal.fi/index"/>
+		<dois>
+			<doi code="10.11143/fennia."/>
+		</dois>
+    </source>
+	<source name="TRR">
+        <type>Journal</type>
+		<info name="Transportation Research Record: Journal of the Transportation Research Board" url="https://journals.sagepub.com/home/trr"/>
+		<dois>
+			<doi code="10.3141/"/>
+			<doi code="10.1177/03611981"/>
+		</dois>
+    </source>
+	<source name="OR">
+        <type>Journal</type>
+		<info name="Operations Research" url="https://pubsonline.informs.org/journal/opre"/>
+		<dois>
+			<doi code="10.1287/opre."/>
+		</dois>
+    </source>
+	<source name="STrans">
+        <type>Journal</type>
+		<info name="Transportation" url="https://www.springer.com/journal/11116/"/>
+		<dois>
+			<doi code="10.1007/s11116"/>
+			<doi code="10.1007/BF0"/>
+			<doi code="10.1023/A:10"/>
+			<doi code="10.1023/B:PORT.000"/>
+		</dois>
+    </source>
+	<source name="AJ">
+        <type>Journal</type>
+		<info name="The Aeronautical Journal" url="https://www.cambridge.org/core/journals/aeronautical-journal"/>
+		<dois>
+			<doi code="10.1017/aer."/>
+			<doi code="10.1017/S0001924000"/>
+		</dois>
+    </source>
+	<source name="ICUAS">
+        <type>Journal</type>
+		<info name="International Conference on Unmanned Aircraft Systems" url="https://ieeexplore.ieee.org/xpl/conhome/1802684/all-proceedings"/>
+		<dois>
+			<doi code="10.1109/ICUAS"/>
+		</dois>
+    </source>
+	<source name="TITS">
+        <type>Journal</type>
+		<info name="IEEE Transactions on Intelligent Transportation Systems" url="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6979"/>
+		<dois>
+			<doi code="10.1109/TITS"/>
+		</dois>
+    </source>
+	<source name="ACC">
+        <type>Conference</type>
+		<info name="American Control Conference" url="https://ieeexplore.ieee.org/xpl/conhome/9482409/proceeding"/>
+		<dois>
+			<doi code="10.23919/ACC"/>
+			<doi code="10.1109/ACC"/>
+		</dois>
+    </source>
+	<source name="eTrans">
+        <type>Journal</type>
+		<info name="eTransportation" url="https://www.sciencedirect.com/journal/etransportation"/>
+		<dois>
+			<doi code="10.1016/j.etran."/>
+		</dois>
+    </source>
+	<source name="ACCESS">
+        <type>Journal</type>
+		<info name="IEEE Access" url="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6287639"/>
+		<dois>
+			<doi code="10.1109/ACCESS"/>
+		</dois>
+    </source>
+	<source name="TS">
+        <type>Journal</type>
+		<info name="Transportation Science" url="https://pubsonline.informs.org/journal/trsc"/>
+		<dois>
+			<doi code="10.1287/trsc"/>
+		</dois>
+    </source>
+	<source name="TM">
+        <type>Journal</type>
+		<info name="Tourism Management" url="https://www.sciencedirect.com/journal/tourism-management"/>
+		<dois>
+			<doi code="10.1016/j.tourman"/>
+			<doi code="10.1016/S0261-5177"/>
+			<doi code="10.1016/0261-5177"/>
+		</dois>
+    </source>
+	<source name="TBS">
+        <type>Journal</type>
+		<info name="Travel Behaviour and Society" url="https://www.sciencedirect.com/journal/travel-behaviour-and-society"/>
+		<dois>
+			<doi code="10.1016/j.tbs"/>
+		</dois>
+    </source>
+	<source name="AST">
+        <type>Journal</type>
+		<info name="Aerospace Science and Technology" url="https://www.sciencedirect.com/journal/aerospace-science-and-technology"/>
+		<dois>
+			<doi code="10.1016/j.ast."/>
+		</dois>
+    </source>
+	<source name="IJAAA">
+        <type>Journal</type>
+		<info name="International Journal of Aviation, Aeronautics, and Aerospace" url="https://commons.erau.edu/ijaaa/"/>
+		<dois>
+			<doi code="10.15394/ijaaa."/>
+			<doi code="10.15394/IJAAA."/>
+		</dois>
+    </source>
+	<source name="Sens">
+        <type>Journal</type>
+		<info name="MDPI Sensors" url="https://www.mdpi.com/journal/sensors"/>
+		<dois>
+			<doi code="10.3390/s1"/>
+			<doi code="10.3390/s2"/>
+		</dois>
+    </source>
+	<source name="TRP">
+        <type>Journal</type>
+		<info name="Transportation Research Procedia" url="https://www.sciencedirect.com/journal/transportation-research-procedia"/>
+		<dois>
+			<doi code="10.1016/j.trpro."/>
+		</dois>
+    </source>
+	<source name="TTE">
+        <type>Journal</type>
+		<info name="IEEE Transactions on Transportation Electrification" url="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6687316"/>
+		<dois>
+			<doi code="10.1109/TTE"/>
+		</dois>
+    </source>
+	<source name="GT">
+        <type>Conference</type>
+		<info name="ASME Turbomachinery Conference" url="https://asmedigitalcollection.asme.org/GT"/>
+		<dois>
+			<doi code="10.1115/GT"/>
+		</dois>
+    </source>
+	<source name="TMA">
+        <type>Journal</type>
+		<info name="Transportmetrica A: Transport Science" url="https://www.tandfonline.com/toc/ttra21/current"/>
+		<dois>
+			<doi code="10.1080/23249935."/>
+		</dois>
+    </source>
+	<source name="Sus">
+        <type>Journal</type>
+		<info name="MDPI Sustainability" url="https://www.mdpi.com/journal/sustainability"/>
+		<dois>
+			<doi code="10.3390/su"/>
+			<doi code="10.3390/SU"/>
+		</dois>
+    </source>
+	<source name="PAS">
+        <type>Journal</type>
+		<info name="Progress in Aerospace Sciences" url="https://www.sciencedirect.com/journal/progress-in-aerospace-sciences"/>
+		<dois>
+			<doi code="10.1016/j.paerosci."/>
+			<doi code="10.1016/0376-0421"/>
+		</dois>
+    </source>
+	<source name="ICAS">
+        <type>Conference</type>
+		<info name="IEEE International Conference on Autonomous Systems" url="https://ieeexplore.ieee.org/xpl/conhome/1842844/all-proceedings"/>
+		<dois>
+			<doi code="10.1109/ICAS"/>
+		</dois>
+    </source>
+	<source name="CAero">
+        <type>Conference</type>
+		<info name="IEEE Conference on Aerospace" url="https://ieeexplore.ieee.org/xpl/conhome/1000024/all-proceedings"/>
+		<dois>
+			<doi code="10.1109/AERO"/>
+		</dois>
+    </source>
+	<source name="APISAT">
+        <type>Conference</type>
+		<info name="Asia-Pacific International Symposium on Aerospace Technology" url="https://link.springer.com/conference/apisat"/>
+		<dois>
+			<doi code="10.1007/978-981-13-3305-7"/>
+		</dois>
+    </source>
+	<source name="IFAC">
+        <type>Journal</type>
+		<info name="International Federation of Automatic Control" url="https://www.sciencedirect.com/journal/ifac-papersonline"/>
+		<dois>
+			<doi code="10.1016/j.ifacol."/>
+		</dois>
+    </source>
+	<source name="NOISE">
+        <type>Journal</type>
+		<info name="Noise Mapping" url="https://www.degruyter.com/journal/key/noise/html"/>
+		<dois>
+			<doi code="10.1515/noise-"/>
+			<doi code="10.2478/noise-"/>
+		</dois>
+    </source>
+	<source name="JA">
+        <type>Journal</type>
+		<info name="Journal of Aircraft" url="https://arc.aiaa.org/journal/ja"/>
+		<dois>
+			<doi code="10.2514/1.C"/>
+		</dois>
+    </source>
+	<source name="AIAAJ">
+        <type>Journal</type>
+		<info name="AIAA Journal" url="https://arc.aiaa.org/journal/aiaaj"/>
+		<dois>
+			<doi code="10.2514/1.J"/>
+		</dois>
+    </source>
+	<source name="Trip">
+        <type>Journal</type>
+		<info name="Transportation Research Interdisciplinary Perspectives" url="https://www.sciencedirect.com/journal/transportation-research-interdisciplinary-perspectives"/>
+		<dois>
+			<doi code="10.1016/j.trip."/>
+		</dois>
+    </source>
+	<source name="Energy">
+        <type>Journal</type>
+		<info name="Energy" url="https://www.sciencedirect.com/journal/energy"/>
+		<dois>
+			<doi code="10.1016/j.energy."/>
+			<doi code="10.1016/0360-5442"/>
+		</dois>
+    </source>
+	<source name="CEAS">
+        <type>Journal</type>
+		<info name="CEAS Aeronautical Journal" url="https://www.springer.com/journal/13272"/>
+		<dois>
+			<doi code="10.1007/s13272-"/>
+		</dois>
+    </source>
+	<source name="JAT">
+        <type>Journal</type>
+		<info name="Journal of Air Transportation" url="https://arc.aiaa.org/journal/jat"/>
+		<dois>
+			<doi code="10.2514/1.D"/>
+		</dois>
+    </source>
+	<source name="JPP">
+        <type>Journal</type>
+		<info name="Journal of Propulsion and Power" url="https://arc.aiaa.org/journal/jpp"/>
+		<dois>
+			<doi code="10.2514/1.B"/>
+		</dois>
+    </source>
+	<source name="JAIS">
+        <type>Journal</type>
+		<info name="Journal of Aerospace Information Systems" url="https://arc.aiaa.org/journal/jais"/>
+		<dois>
+			<doi code="10.2514/1.I"/>
+		</dois>
+    </source>
+	<source name="JGCD">
+        <type>Journal</type>
+		<info name="Journal of Guidance, Control, and Dynamics" url="https://arc.aiaa.org/journal/jgcd"/>
+		<dois>
+			<doi code="10.2514/1.G"/>
+		</dois>
+    </source>
+	<source name="IJHE">
+        <type>Journal</type>
+		<info name="International Journal of Hydrogen Energy" url="https://www.sciencedirect.com/journal/international-journal-of-hydrogen-energy"/>
+		<dois>
+			<doi code="10.1016/j.ijhydene."/>
+			<doi code="10.1016/0360-3199"/>
+		</dois>
+    </source>
+	<source name="ESARS-ITEC">
+        <type>Conference</type>
+		<info name="International Conference on Electrical Systems for Aircraft, Railway, Ship Propulsion and Road Vehicles and International Transportation Electrification Conference" url="https://ieeexplore.ieee.org/xpl/conhome/1817164/all-proceedings"/>
+		<dois>
+			<doi code="10.1109/ESARS-ITEC"/>
+		</dois>
+    </source>
+	<source name="ITSC">
+        <type>Conference</type>
+		<info name="International Conference on Intelligent Transportation" url="https://ieeexplore.ieee.org/xpl/conhome/1000396/all-proceedings"/>
+		<dois>
+			<doi code="10.1109/ITSC"/>
+		</dois>
+    </source>
+	<source name="TCPS">
+        <type>Journal</type>
+		<info name="ACM Transactions on Cyber-Physical Systems" url="https://dl.acm.org/journal/tcps"/>
+		<dois>
+			<doi code="10.1145/3"/>
+			<doi code="10.1145/2"/>
+		</dois>
+    </source>
+	<source name="IJASS">
+        <type>Journal</type>
+		<info name="International Journal of Aeronautical and Space Sciences" url="https://www.springer.com/journal/42405"/>
+		<dois>
+			<doi code="10.1007/s42405-0"/>
+		</dois>
+    </source>
+	<source name="App">
+        <type>Journal</type>
+		<info name="MDPI Applied Sciences" url="https://www.mdpi.com/journal/applsci"/>
+		<dois>
+			<doi code="10.3390/app"/>
+		</dois>
+    </source>
+	<source name="Fbuil">
+        <type>Journal</type>
+		<info name="Frontiers in Built Environment" url="https://www.frontiersin.org/journals/built-environment#"/>
+		<dois>
+			<doi code="10.3389/fbuil."/>
+		</dois>
+    </source>
+	<source name="SpliTech">
+        <type>Conference</type>
+		<info name="International Multidisciplinary Conference on Computer and Energy Science" url="https://ieeexplore.ieee.org/xpl/conhome/1814524/all-proceedings"/>
+		<dois>
+			<doi code="10.23919/SpliTech"/>
+			<doi code="10.1109/SpliTech"/>
+		</dois>
+    </source>
+	<source name="ICRA">
+        <type>Conference</type>
+		<info name="IEEE International Conference on Robotics and Automation" url="https://ieeexplore.ieee.org/xpl/conhome/1000639/all-proceedings"/>
+		<dois>
+			<doi code="10.1109/ICRA"/>
+			<doi code="10.1109/ROBOT"/>
+		</dois>
+    </source>
+	<source name="ER">
+        <type>Journal</type>
+		<info name="International Journal of Energy Research" url="https://onlinelibrary.wiley.com/journal/1099114x?tabActivePane=undefined"/>
+		<dois>
+			<doi code="10.1002/er."/>
+		</dois>
+    </source>
+	<source name="EGTP">
+        <type>Journal</type>
+		<info name="Journal of Engineering for Gas Turbines and Power" url="https://asmedigitalcollection.asme.org/gasturbinespower"/>
+		<dois>
+			<doi code="10.1115/1."/>
+		</dois>
+    </source>
+	<source name="SAE">
+        <type>Conference</type>
+		<info name="SAE Mobilus Conferences" url="https://saemobilus.sae.org/"/>
+		<dois>
+			<doi code="10.4271/20"/>
+		</dois>
+    </source>
+	<source name="Springer">
+        <type>Conference</type>
+		<info name="Springer Conference Papers" url="https://link.springer.com/search?facet-content-type=ConferencePaper"/>
+		<dois>
+			<doi code="10.1007/978-3-"/>
+			<doi code="10.1007/978-981-"/>
+		</dois>
+    </source>
+	<source name="ICIEAM">
+        <type>Conference</type>
+		<info name="International Conference on Industrial Engineering, Applications and Manufacturing" url="https://ieeexplore.ieee.org/xpl/conhome/1813784/all-proceedings"/>
+		<dois>
+			<doi code="10.1109/ICIEAM"/>
+		</dois>
+    </source>
+	<source name="EASN">
+        <type>Conference</type>
+		<info name="International Conference on Innovation in Aviation and Space to the Satisfaction of the European Citizens" url="https://easnconference.eu/2021/proceedings"/>
+		<dois>
+			<doi code="10.1088/1757-899X/1024/1/"/>
+		</dois>
+    </source>
+	<source name="ICMC">
+        <type>Conference</type>
+		<info name="International Cryogenic Materials Conference" url="https://www.cec-icmc.org/publication/"/>
+		<dois>
+			<doi code="10.1088/1757-899X/279/1/"/>
+		</dois>
+    </source>
+	<source name="CSU">
+        <type>Journal</type>
+		<info name="Journal of Central South University" url="https://www.springer.com/journal/11771"/>
+		<dois>
+			<doi code="10.1007/s11771-"/>
+		</dois>
+    </source>
+	<source name="PJAE">
+        <type>Journal</type>
+		<info name="Proceedings of the Institution of Mechanical Engineers, Part G: Journal of Aerospace Engineering" url="https://journals.sagepub.com/home/pig"/>
+		<dois>
+			<doi code="10.1177/0954410"/>
+			<doi code="10.1243/"/>
+		</dois>
+    </source>
+	<source name="WiSEE">
+        <type>Conference</type>
+		<info name="IEEE International Conference on Wireless for Space and Extreme Environments" url="https://ieeexplore.ieee.org/xpl/conhome/1803428/all-proceedings"/>
+		<dois>
+			<doi code="10.1109/WiSEE"/>
+		</dois>
+    </source>
+	<source name="JAE">
+        <type>Journal</type>
+		<info name="ASCE Journal of Aerospace Engineering" url="https://ascelibrary.org/journal/jaeeez"/>
+		<dois>
+			<doi code="10.1061/(ASCE)AS.1943-5525."/>
+		</dois>
+    </source>
+	<source name="MELE">
+        <type>Journal</type>
+		<info name="IEEE Electrification Magazine" url="https://ieeexplore.ieee.org/xpl/issues?punumber=6508996"/>
+		<dois>
+			<doi code="10.1109/MELE"/>
+		</dois>
+    </source>
+	<source name="ICECA">
+        <type>Conference</type>
+		<info name="International conference of Electronics, Communication and Aerospace Technology" url="https://ieeexplore.ieee.org/xpl/conhome/1819904/all-proceedings"/>
+		<dois>
+			<doi code="10.1109/ICECA"/>
+		</dois>
+    </source>
+	<source name="MSPEC">
+        <type>Journal</type>
+		<info name="IEEE Spectrum" url="https://ieeexplore.ieee.org/xpl/issues?punumber=6"/>
+		<dois>
+			<doi code="10.1109/MSPEC"/>
+			<doi code="10.1109/6."/>
+		</dois>
+    </source>
+	<source name="AIP">
+        <type>Conference</type>
+		<info name="AIP Conference Proceedings" url="https://aip.scitation.org/journal/apc"/>
+		<dois>
+			<doi code="10.1063/1.5"/>
+		</dois>
+    </source>
+	<source name="POWER">
+        <type>Conference</type>
+		<info name="ASME Power Conference" url="https://asmedigitalcollection.asme.org/POWER"/>
+		<dois>
+			<doi code="10.1115/POWER"/>
+			<doi code="10.1115/power"/>
+		</dois>
+    </source>
+	<source name="AAAS">
+        <type>International Journal</type>
+		<info name="ACTA AERONAUTICAET ASTRONAUTICA SINICA" url="http://hkxb.buaa.edu.cn/CN/model/index.shtml"/>
+		<dois>
+			<doi code="10.7527/S1000-6893"/>
+		</dois>
+    </source>
+	<source name="REE">
+        <type>Journal</type>
+		<info name="Russian Electrical Engineering" url="https://www.springer.com/journal/11979"/>
+		<dois>
+			<doi code="10.3103/S10683712"/>
+		</dois>
+    </source>
+	<source name="CCTA">
+        <type>Conference</type>
+		<info name="Control Technology and Applications" url="https://ieeexplore.ieee.org/xpl/conhome/1822104/all-proceedings"/>
+		<dois>
+			<doi code="10.1109/CCTA"/>
+		</dois>
+    </source>
+	<source name="TIA">
+        <type>Journal</type>
+		<info name="IEEE Transactions on Industry Applications" url="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=28"/>
+		<dois>
+			<doi code="10.1109/TIA"/>
+			<doi code="10.1109/28"/>
+		</dois>
+    </source>
+	<source name="IECON">
+        <type>Conference</type>
+		<info name="Annual Conference of Industrial Electronics Society" url="https://ieeexplore.ieee.org/xpl/conhome/1000352/all-proceedings"/>
+		<dois>
+			<doi code="10.1109/IECON"/>
+		</dois>
+    </source>
+	<source name="MEIS">
+        <type>Conference</type>
+		<info name="MECHATRONIKA International Symposium" url="https://ieeexplore.ieee.org/xpl/conhome/1800084/all-proceedings"/>
+		<dois>
+			<doi code="10.1109/MECHATRONIKA"/>
+			<doi code="10.1109/ME49197"/>
+		</dois>
+    </source>
+	<source name="AE">
+        <type>Journal</type>
+		<info name="Applied Energy" url="https://www.sciencedirect.com/journal/applied-energy"/>
+		<dois>
+			<doi code="10.1016/j.apenergy"/>
+			<doi code="10.1016/S0306-2619"/>
+			<doi code="10.1016/0306-2619"/>
+		</dois>
+    </source>
+	<source name="Energies">
+        <type>Journal</type>
+		<info name="MDPI Energies" url="https://www.mdpi.com/journal/energies"/>
+		<dois>
+			<doi code="10.3390/en"/>
+		</dois>
+    </source>
+	<source name="JCP">
+        <type>Journal</type>
+		<info name="AIP Journal of Chemical Physics" url="https://aip.scitation.org/journal/jcp"/>
+		<dois>
+			<doi code="10.1063/1."/>
+			<doi code="10.1063/5."/>
+		</dois>
+    </source>
+	<source name="ICM">
+        <type>Conference</type>
+		<info name="International Conference on Mechatronics" url="https://ieeexplore.ieee.org/xpl/conhome/1001206/all-proceedings"/>
+		<dois>
+			<doi code="10.1109/ICMECH"/>
+			<doi code="10.1109/ICM46511"/>
+		</dois>
+    </source>
+	<source name="APEC">
+        <type>Conference</type>
+		<info name="Annual IEEE Conference on Applied Power Electronics Conference and Exposition" url="https://ieeexplore.ieee.org/xpl/conhome/1000047/all-proceedings"/>
+		<dois>
+			<doi code="10.1109/APEC"/>
+		</dois>
+    </source>
+	<source name="TASC">
+        <type>Journal</type>
+		<info name="IEEE Transactions on Applied Superconductivity" url="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=77"/>
+		<dois>
+			<doi code="10.1109/TASC"/>
+			<doi code="10.1109/77"/>
+		</dois>
+    </source>
+	<source name="SST">
+        <type>Journal</type>
+		<info name="Superconductor Science and Technology" url="https://iopscience.iop.org/journal/0953-2048"/>
+		<dois>
+			<doi code="10.1088/1361-6668/a"/>
+			<doi code="10.1088/0953-2048/"/>
+		</dois>
+    </source>
+	<source name="TPEL">
+        <type>Journal</type>
+		<info name="IEEE Transactions on Power Electronics" url="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=63"/>
+		<dois>
+			<doi code="10.1109/TPEL"/>
+			<doi code="10.1109/63"/>
+		</dois>
+    </source>
+	<source name="JoP">
+        <type>Journal</type>
+		<info name="Journal of Physics: Conference Series" url="https://iopscience.iop.org/journal/1742-6596"/>
+		<dois>
+			<doi code="10.1088/1742-6596/"/>
+		</dois>
+    </source>
+	<source name="CGNCC">
+        <type>Conference</type>
+		<info name="IEEE Chinese Guidance, Navigation and Control Conference" url="https://ieeexplore.ieee.org/xpl/conhome/1804166/all-proceedings"/>
+		<dois>
+			<doi code="10.1109/CGNCC"/>
+			<doi code="10.1109/GNCC"/>
+		</dois>
+    </source>
+	<source name="ICED">
+        <type>Conference</type>
+		<info name="International Conference on Engineering Design" url="https://www.cambridge.org/core/journals/proceedings-of-the-design-society/past-title/proceedings-of-the-design-society-international-conference-on-engineering-design/all-issues/1120A598F6F22D179D3A1F933A4405AB"/>
+		<dois>
+			<doi code="10.1017/pds.2021."/>
+		</dois>
+    </source>
+	<source name="TCNS">
+        <type>Journal</type>
+		<info name="IEEE Transactions on Control of Network Systems" url="https://ieeexplore.ieee.org/xpl/aboutJournal.jsp?punumber=6509490"/>
+		<dois>
+			<doi code="10.1109/TCNS"/>
+		</dois>
+    </source>
+	<source name="Eng">
+        <type>Journal</type>
+		<info name="Elsevier Engineering" url="https://www.sciencedirect.com/journal/engineering"/>
+		<dois>
+			<doi code="10.1016/j.eng."/>
+			<doi code="10.1016/J.ENG."/>
+			<doi code="10.15302/J-ENG-"/>
+		</dois>
+    </source>
+	<source name="MAS">
+        <type>Conference</type>
+		<info name="IEEE Metrology for Aerospace" url="https://ieeexplore.ieee.org/xpl/conhome/1803843/all-proceedings"/>
+		<dois>
+			<doi code="10.1109/MetroAeroSpace"/>
+		</dois>
+    </source>
+	<source name="NTRS">
+		<type>Reports</type>
+		<info name="NASA Technical Report Server" url="https://ntrs.nasa.gov/"/>
+		<dois>
+			<doi code="201400"/>
+			<doi code="201500"/>
+			<doi code="201600"/>
+			<doi code="201700"/>
+			<doi code="201800"/>
+			<doi code="201900"/>
+			<doi code="202000"/>
+			<doi code="202100"/>
+			<doi code="201450"/>
+			<doi code="201550"/>
+			<doi code="201650"/>
+			<doi code="201750"/>
+			<doi code="201850"/>
+			<doi code="201950"/>
+			<doi code="202050"/>
+			<doi code="202150"/>
+		</dois>
+	</source>
+	<source name="EATS">
+        <type>Conference</type>
+		<info name="AIAA/IEEE Electric Aircraft Technologies Symposium" url="https://ieeexplore.ieee.org/xpl/conhome/1828524/all-proceedings"/>
+		<dois>
+			<doi code="10.23919/EATS"/>
+		</dois>
+    </source>
+	<source name="INCE">
+        <type>Conference</type>
+		<info name="INTER-NOISE and NOISE-CON Congress" url="https://www.ingentaconnect.com/content/ince/incecp"/>
+		<dois>
+			<doi code="10.3397/IN-"/>
+		</dois>
+    </source>
+	<source name="ITEC">
+        <type>Conference</type>
+		<info name="IEEE Transportation Electrification Conference and Expo" url="https://ieeexplore.ieee.org/xpl/conhome/1801705/all-proceedings"/>
+		<dois>
+			<doi code="10.1109/ITEC"/>
+		</dois>
+    </source>
+	<source name="JWEIA">
+        <type>Journal</type>
+		<info name="Journal of Wind Engineering and Industrial Aerodynamics" url="https://www.sciencedirect.com/journal/journal-of-wind-engineering-and-industrial-aerodynamics"/>
+		<dois>
+			<doi code="10.1016/j.jweia."/>
+			<doi code="10.1016/S0167-6105"/>
+			<doi code="10.1016/0167-6105"/>
+		</dois>
+    </source>
+	<source name="Drones">
+        <type>Journal</type>
+		<info name="MDPI Drones" url="https://www.mdpi.com/journal/drones"/>
+		<dois>
+			<doi code="10.3390/drones"/>
+		</dois>
+    </source>
+	<source name="Electronics">
+        <type>Journal</type>
+		<info name="MDPI Electronics" url="https://www.mdpi.com/journal/electronics"/>
+		<dois>
+			<doi code="10.3390/electronics"/>
+		</dois>
+    </source>
+	
+</sources>
