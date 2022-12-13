@@ -56,6 +56,7 @@ elif 'txt' in name_filter: # advanced filter with txt-file
 
 ### MAIN SCRIPT ###
 
+print("\nfiltering database...")
 filt = df[filter_field].isnull()
 df.drop(index=df[filt].index, inplace=True)
 
@@ -112,8 +113,10 @@ elif filter_field == 'year':
 
 ### EXPORT FILTERED DATABASE ###
 
+file_export = file_database[:-4] + "_filtered_by_" + filter_field + ".csv"
+print("done filtering database! Export to " + file_export)
 df_filtered = df.loc[filt]
 print(df_filtered)
 df_filtered.reset_index(inplace=True)
 df_filtered.fillna('N/A', inplace=True)
-df_filtered.to_csv(file_database[:-4] + "_filtered_by_" + filter_field + ".csv", sep=';', index=False)
+df_filtered.to_csv(file_export, sep=';', index=False)
