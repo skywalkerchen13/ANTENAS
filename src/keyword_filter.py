@@ -4,31 +4,39 @@
 
 import pandas as pd
 import csv
-# import os
 from os.path import dirname, join
+
+
+### INPUT ###
 
 name_database = "RG_Library_Com&Inno.csv"
 name_filter = "keywords_Com&Inno.csv" # can be .csv or .txt file
 
+
+### READ DATABASE AND KEYWORDS ###
+
 dir = dirname(dirname(__file__))
 file_database = join(dir, 'input', name_database)
 file_filter = join(dir, 'input', name_filter)
+query = '#QUERY#'
 
-# format of database: 5 columns, seperated by semicolon: doi, year, authors, title, abstract
-df = pd.read_csv(file_database, delimiter=';', dtype=object, index_col='doi')
+df = pd.read_csv(file_database, delimiter=';', dtype=object, index_col='doi') # database
+print("\ndatabase loaded from " + file_database)
 
-# format of filter: first row name of database column to filter, then one filter per row
+# format of filter: first row name of column to filter, then one keyword per row
 # keywords all in small letters, authors in the format: F. LLLL (F: First name, L: Last Name)
-if 'csv' in name_filter:
+if 'csv' in name_filter: # basic filter with csv-file
     with open(file_filter,'r') as csv_file:
         csv_reader = csv.reader(csv_file)
         filter_field = next(csv_file).replace("\n","")
         filter_keywords = []
         for row in csv_file:
             filter_keywords.append(row.replace("\n",""))
+    print("basic filter loaded from " + file_filter)
+    print("field to filter: " + filter_field)
 
-elif 'txt' in name_filter:
-    filter_field = 'title'
+elif 'txt' in name_filter: # advanced filter with txt-file
+    filter_field = 'title' # filter field for advanced filter (hard coded, not changeable in input file)
     keyword_string = open(file_filter, 'r').read()
     if '(' and ')' in keyword_string:
         filter_keywords = keyword_string[1:-1].split(') | (')
@@ -41,31 +49,15 @@ elif 'txt' in name_filter:
                 filter_keywords[i] = line.split('&')
     else:
         filter_keywords = keyword_string.split('|')
-
-### INPUT FILTER ###
-
-# filter_field = 'authors' # field to be filtered
-# filter_keywords = ['R. Rothfeld', 'J. Sutton'] # list of keywords to be searched for
-query = '#AIR#'
-# results_field = 'year'
+    print("advanced filter loaded from " + file_filter)
+    print("field to filter: " + filter_field)
 
 
-### MANUAL FILTERING ###
 
-## find paper by DOI
-# doi = "10.3141/1723-02"
-# print(df.loc[doi])
+### MAIN SCRIPT ###
 
-## find paper by title
-# title = "Leading Through Intervals versus Leading Pedestrian Intervals: More Protection with Less Capacity Impact"
-# print(df[df['title'].apply(str.lower) == title.lower()]['title'])
-
-
-### FILTER BY KEYWORDS ###
-
-# filt = df.isnull().any(axis=1)
 filt = df[filter_field].isnull()
-df.drop(index=df[filt].index, inplace=True) # drop all rows that are not complete
+df.drop(index=df[filt].index, inplace=True)
 
 if filter_field == "title" or filter_field == "abstract":
 
@@ -115,8 +107,7 @@ elif filter_field == 'authors':
 
 elif filter_field == 'year':
     filt = [True if row in filter_keywords else False for row in df[filter_field]]
-    # filt = [False]*df.shape[0]
-    # for paper_years in filter_keywords:
+
 
 
 ### EXPORT FILTERED DATABASE ###
