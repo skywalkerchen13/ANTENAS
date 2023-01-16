@@ -119,6 +119,8 @@ else: # combining files of entire folder
 
     csv_files = [join(path, f) for f in listdir(path) if isfile(join(path, f)) and f[-3:] == 'csv']
 
+    mkdir(join(path, 'combined data'))
+
     # https://stackoverflow.com/questions/12468179/unicodedecodeerror-utf8-codec-cant-decode-byte-0x9c
     df_sum = pd.read_csv(csv_files[0], delimiter=';', dtype=object, engine='python')
 
