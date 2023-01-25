@@ -10,7 +10,9 @@ ANTENAS is a toolbox of scripts to provide researches with an easy access to tex
 
 ## Set-Up
 Install all necessary packages in their respective version through (navigate to path of the requirements file) 
+```
 pip install -r requirements.txt
+```
 
 ## Inputs
 
