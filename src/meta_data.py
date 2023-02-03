@@ -1,7 +1,11 @@
 # author: Lukas Preis
 # date: 9.3.2021
 # version: 1.5
-# update: include composition of database
+# ----------------------- #
+# Input: database (.csv), hardcoded inputs to chose the range of unsupervised text analysis (lines 27-39)
+# Process: counting words, publications, authors, etc.; aggregating counts into meaningful bins
+# Output: meta data of database as "Logfile.txt", e.g. publications per year, authors with most publications, most frequently used words, etc.
+# ----------------------- #
 
 import pandas as pd
 from statistics import *

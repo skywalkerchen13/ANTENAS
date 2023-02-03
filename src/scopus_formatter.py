@@ -1,3 +1,12 @@
+# author: Lukas Preis
+# date: Januar 2022
+# version: 1.0
+# ----------------------- #
+# Input: database as exported from scopus (.csv)
+# Process: select data points and change format
+# Output: database ready to be used in other scripts of ANTENAS (.csv), this time including column "citations"
+# ----------------------- #
+
 import pandas as pd
 import csv
 

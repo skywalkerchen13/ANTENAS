@@ -1,7 +1,11 @@
 # author: Lukas Preis
 # date: 16.11.2020
 # version: 1.1.1
-# update: 3 year trend line included in year overview
+# ----------------------- #
+# Input: Logfile.txt from meta data, expanded through 3-digit codes (see lines 36-48)
+# Process: find data marked by 3-digit codes, read into respective format, process as plot
+# Output: visualizations of meta data (.png)
+# ----------------------- #
 
 import pandas as pd
 import numpy as np

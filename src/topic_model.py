@@ -1,4 +1,12 @@
-# https://www.machinelearningplus.com/nlp/topic-modeling-gensim-python/
+# author: Lukas Preis
+# date: September 2022
+# version: 1.0
+# ----------------------- #
+# Input: database (.csv), number of topics
+# Process: apply LDA algorithm from https://www.machinelearningplus.com/nlp/topic-modeling-gensim-python/
+# Output: topic model represented by clusters thematicly grouped publications; overview (.txt), dominant topcis (.csv)
+# ----------------------- #
+
 
 from stop_words import get_stop_words
 import nltk

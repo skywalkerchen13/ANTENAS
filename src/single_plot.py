@@ -1,7 +1,11 @@
 # author: Lukas Preis
 # date: 4.3.2021
 # version: 1.1
-# update: plots for composition of database
+# ----------------------- #
+# Input: Manual extraction of data from Logfile.txt
+# Process: find data marked by 3-digit codes, read into respective format, process as plot
+# Output: visualizations of manually pre-processed meta data (.png)
+# ----------------------- #
 
 import os
 from matplotlib import pyplot as plt
