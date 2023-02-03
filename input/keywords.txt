@@ -1,1 +1,1 @@
-(urban air mobility|advanced air mobility) & (infrastructure)
+([urban air mobility|advanced air mobility|regional air mobility]) | (vertiport) | ([aerodrome] & [vertical|vtol]) | (evtol&approach&departure)

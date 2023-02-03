@@ -1,6 +1,12 @@
 # Author: Lukas Preis
 # Creation Date: 3.3.2021
 # Version: 1.1
+# ----------------------- #
+# Input: filtered database (.csv), list of keywords (.csv)
+# Process: publications' title and abstract in database are screened for keywords
+# Output: document term matrix indicating the occurence of each keyword in each publication
+# ----------------------- #
+
 
 import csv
 import pandas as pd

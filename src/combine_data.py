@@ -1,6 +1,11 @@
 # Author: Lukas Preis
 # Creation Date: 3.3.2021
 # Version: 1.4
+# ----------------------- #
+# Input: (Option 1) two databases, (Option 2) a folder with N databses, more options ...
+# Process: compare databases and create files according to two-circle ven-diagram
+# Output: (Option 1) four files without duplicates, (Option 2) one file without duplicates
+# ----------------------- #
 
 from os.path import isdir, isfile, dirname, join, basename, splitext
 from os import mkdir, listdir

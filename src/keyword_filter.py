@@ -1,6 +1,11 @@
 # Author: Lukas Preis
 # Creation Date: 24.9.2020
 # Version: 2.2
+# ----------------------- #
+# Input: database (.csv), list of keywords for filtering (.csv or .txt)
+# Process: filter database according to selected field, OR-chain for .csv, AND-OR-chain for .txt
+# Output: filtered database
+# ----------------------- #
 
 import pandas as pd
 import csv
@@ -9,8 +14,8 @@ from os.path import dirname, join
 
 ### INPUT ###
 
-name_database = "RG_Library_Com&Inno.csv"
-name_filter = "keywords_Com&Inno.csv" # can be .csv or .txt file
+name_database = "Aviation_Library_2016-20.csv"
+name_filter = "keywords.txt" # can be .csv or .txt file
 
 
 ### READ DATABASE AND KEYWORDS ###
@@ -36,7 +41,7 @@ if 'csv' in name_filter: # basic filter with csv-file
     print("field to filter: " + filter_field)
 
 elif 'txt' in name_filter: # advanced filter with txt-file
-    filter_field = 'title' # filter field for advanced filter (hard coded, not changeable in input file)
+    filter_field = 'abstract' # filter field for advanced filter (hard coded, not changeable in input file)
     keyword_string = open(file_filter, 'r').read()
     if '(' and ')' in keyword_string:
         filter_keywords = keyword_string[1:-1].split(') | (')
